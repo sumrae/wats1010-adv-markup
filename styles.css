@@ -1,1 +1,130 @@
 /* Styles for the Advanced Markup assignment. */
+
+nav ul li {
+  display: inline;
+  background-color: lightgray;
+}
+
+/* #banner {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li.top-nav {
+    float: left;
+}
+
+li.top-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li.top-nav a:hover {
+    background-color: pink;
+} */
+
+a.active {
+  font-weight: bold;
+  /*   background-color: pink; */
+}
+
+#sidebar {
+  float: right;
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  background-color: pink;
+}
+
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.poem {
+  list-style-type: none;
+}
+
+.poem li {
+  font-size: medium;
+  line-height: 1.5;
+}
+
+.poem li:first-letter {
+  font-size: 150%;
+}
+
+figure {
+  float: left;
+  display: table;
+  width: 150px;
+  border: solid;
+  margin: 20px;
+  padding: 10px;
+  /*   width: min-content; */
+  /*   background-color: lightgreen; */
+}
+
+img,
+figcaption {
+  display: table-row;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: small;
+  width: 200px;
+  height: auto;
+}
+
+dt {
+  font-weight: bold;
+  margin: 5px;
+}
+
+dd {
+  margin: 10px;
+  padding: 0 0 0.5em 0;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style all font awesome icons */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
