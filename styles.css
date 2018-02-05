@@ -1,129 +1,126 @@
-/* Styles for the Advanced Markup assignment. */
-
-nav ul li {
-  display: inline;
-  background-color: lightgray;
+/* Header styles for the Advanced Markup assignment. */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
 }
-
-/* #banner {
+/* Nav list format. */
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: #333;
+    font-family: "Segoe UI",Arial,sans-serif;
 }
-li.top-nav {
+nav li {
     float: left;
+  border-right: 1px solid #bbb;
 }
-
-li.top-nav a {
+nav li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px;
+    padding: 14px 16px;
     text-decoration: none;
 }
-
-li.top-nav a:hover {
-    background-color: pink;
-} */
-
-a.active {
+nav li a:hover {
+    background-color: black; 
+}
+nav li a.active {
   font-weight: bold;
-  /*   background-color: pink; */
+  background-color: #F1F1FB;
+  color: black;
 }
-
-#sidebar {
-  float: right;
-  width: 250px;
-  margin: 10px;
-  padding: 20px;
-  background-color: pink;
+/* Main content format. */
+body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    text-align: justify;
 }
-
-aside ul {
-  list-style-type: none;
-  padding: 0;
-}
-
+/* Change the poem list format. */
 .poem {
   list-style-type: none;
 }
-
 .poem li {
   font-size: medium;
   line-height: 1.5;
 }
-
 .poem li:first-letter {
   font-size: 150%;
 }
-
+/* Image and caption format. */
 figure {
   float: left;
   display: table;
   width: 150px;
-  border: solid;
   margin: 20px;
   padding: 10px;
-  /*   width: min-content; */
-  /*   background-color: lightgreen; */
 }
-
 img,
 figcaption {
   display: table-row;
   border-radius: 50%;
   text-align: center;
-  text-decoration: small;
+  font-family: monospace;
+  line-height: 1;
   width: 200px;
   height: auto;
+  vertical-align: text-bottom;
 }
-
-dt {
-  font-weight: bold;
-  margin: 5px;
+/* Style table for selected works. */
+table { 
+  margin: auto; 
 }
-
-dd {
-  margin: 10px;
-  padding: 0 0 0.5em 0;
-}
-
-th,
-td {
+th, td {
   text-align: left;
   padding: 8px;
 }
-
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
-
-/* Style all font awesome icons */
-
+/* Right sidebar format. */
+#sidebar {
+  float: right;
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #F1F1FB;  
+}
+aside ul {
+  list-style-type: none;
+  margin:0 auto; 
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin: 0px;
+  padding: 0 0 0.5em 0;
+}
+/* Style all font awesome social media icons */
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
 }
-
 .fa:hover {
   opacity: 0.7;
 }
-
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
-
 .fa-twitter {
   background: #55ACEE;
   color: white;
 }
-
 .fa-pinterest {
   background: #cb2027;
   color: white;
